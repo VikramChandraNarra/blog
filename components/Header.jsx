@@ -1,12 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
 
-
 import Link from 'next/link';
 import { getCategories } from '../services';
 const Header = () => {
   const [categories, setCategories] = useState([]);
-
 
   useEffect(() => {
     getCategories().then((newCategories) => {
@@ -20,8 +18,7 @@ const Header = () => {
       document.documentElement.style.setProperty('--white', '#f0e7db');
       document.documentElement.style.setProperty('--lightBox', '#f5f1e9');
       document.documentElement.style.setProperty('--darkBox', '#303034');
-    }
-    else {
+    } else {
       document.documentElement.style.setProperty('--black', '#f0e7db');
       document.documentElement.style.setProperty('--white', '#212123');
       document.documentElement.style.setProperty('--lightBox', '#303034');
