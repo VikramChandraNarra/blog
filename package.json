@@ -13,11 +13,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.11",
-    "@chakra-ui/react": "^2.3.5",
-    "@emotion/react": "^11.10.0",
-    "@emotion/styled": "^11.10.0",
-    "framer-motion": "^7.5.1",
     "graphql": "^15.8.0",
     "graphql-request": "^3.5.0",
     "html-react-parser": "^1.4.0",
