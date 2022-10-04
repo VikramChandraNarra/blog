@@ -5,9 +5,13 @@ import { Layout } from '../components';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      <title>MARA</title>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
+
   );
 }
 
