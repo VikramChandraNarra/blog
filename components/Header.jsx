@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 import Link from 'next/link';
 import { getCategories } from '../services';
+
 const Header = () => {
   const [categories, setCategories] = useState([]);
 
